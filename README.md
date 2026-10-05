@@ -51,17 +51,17 @@ release with the generated installer:
 
 ```bash
 # Linux / macOS
-curl --proto '=https' --tlsv1.2 -sSfL https://github.com/ScalierBullet63/RustSteg/releases/latest/download/ruststeg-x86_64-unknown-linux-gnu-installer.sh | sh
+curl --proto '=https' --tlsv1.2 -sSfL https://github.com/ScalierBullet63/ruststeg/releases/latest/download/ruststeg-x86_64-unknown-linux-gnu-installer.sh | sh
 
 # Windows (PowerShell)
-irm https://github.com/ScalierBullet63/RustSteg/releases/latest/download/ruststeg-x86_64-pc-windows-msvc-installer.ps1 | iex
+irm https://github.com/ScalierBullet63/ruststeg/releases/latest/download/ruststeg-x86_64-pc-windows-msvc-installer.ps1 | iex
 ```
 
 ### Build from source
 
 ```bash
-git clone https://github.com/ScalierBullet63/RustSteg.git
-cd RustSteg
+git clone https://github.com/ScalierBullet63/ruststeg.git
+cd ruststeg
 cargo build --release
 # binary at target/release/ruststeg
 ```
@@ -211,10 +211,10 @@ RustSteg is licensed under the **GNU General Public License v3.0 only**
 <!-- Badges -->
 [crates-badge]: https://img.shields.io/crates/v/ruststeg.svg
 [crates-url]: https://crates.io/crates/ruststeg
-[ci-badge]: https://github.com/ScalierBullet63/RustSteg/actions/workflows/rust.yml/badge.svg
-[ci-url]: https://github.com/ScalierBullet63/RustSteg/actions/workflows/rust.yml
+[ci-badge]: https://github.com/ScalierBullet63/ruststeg/actions/workflows/rust.yml/badge.svg
+[ci-url]: https://github.com/ScalierBullet63/ruststeg/actions/workflows/rust.yml
 [license-badge]: https://img.shields.io/badge/license-GPL--3.0--only-blue.svg
-[license-url]: https://github.com/ScalierBullet63/RustSteg/blob/main/LICENSE
+[license-url]: https://github.com/ScalierBullet63/ruststeg/blob/main/LICENSE
 [rust-badge]: https://img.shields.io/badge/rust-1.85%2B-orange.svg
 [rust-url]: https://www.rust-lang.org/
-[releases-url]: https://github.com/ScalierBullet63/RustSteg/releases
+[releases-url]: https://github.com/ScalierBullet63/ruststeg/releases

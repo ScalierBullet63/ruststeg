@@ -8,7 +8,7 @@ updates:
     schedule:
       interval: "weekly"
     commit-message:
-      prefix: "Build(deps)"
+      prefix: "build"
       include: "scope"
 
   # GitHub Actions used in .github/workflows
@@ -17,5 +17,5 @@ updates:
     schedule:
       interval: "weekly"
     commit-message:
-      prefix: "Build(ci)"
+      prefix: "ci"
       include: "scope"

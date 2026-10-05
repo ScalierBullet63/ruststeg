@@ -7,65 +7,65 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.1.5](https://github.com/ScalierBullet63/RustSteg/compare/v0.1.4...v0.1.5) - 2026-10-01
+## [0.1.5](https://github.com/ScalierBullet63/ruststeg/compare/v0.1.4...v0.1.5) - 2026-10-01
 
 ### Added
 
-- add custom output option ([#37](https://github.com/ScalierBullet63/RustSteg/pull/37))
-- add carrier format check ([#36](https://github.com/ScalierBullet63/RustSteg/pull/36))
-- hide password input ([#34](https://github.com/ScalierBullet63/RustSteg/pull/34))
+- add custom output option ([#37](https://github.com/ScalierBullet63/ruststeg/pull/37))
+- add carrier format check ([#36](https://github.com/ScalierBullet63/ruststeg/pull/36))
+- hide password input ([#34](https://github.com/ScalierBullet63/ruststeg/pull/34))
 
 ### Other
 
-- *(deps)* bump clap from 4.6.6 to 4.6.7 ([#39](https://github.com/ScalierBullet63/RustSteg/pull/39))
-- *(deps)* bump rand from 0.10.2 to 0.10.3 ([#38](https://github.com/ScalierBullet63/RustSteg/pull/38))
+- *(deps)* bump clap from 4.6.6 to 4.6.7 ([#39](https://github.com/ScalierBullet63/ruststeg/pull/39))
+- *(deps)* bump rand from 0.10.2 to 0.10.3 ([#38](https://github.com/ScalierBullet63/ruststeg/pull/38))
 
-## [0.1.4](https://github.com/ScalierBullet63/RustSteg/compare/v0.1.3...v0.1.4) - 2026-09-18
-
-### Other
-
-- add Windows ARM64 compiling ([#33](https://github.com/ScalierBullet63/RustSteg/pull/33))
-- *(deps)* bump bitflags from 2.13.1 to 2.13.2 ([#30](https://github.com/ScalierBullet63/RustSteg/pull/30))
-
-## [0.1.3](https://github.com/ScalierBullet63/RustSteg/compare/v0.1.2...v0.1.3) - 2026-09-16
+## [0.1.4](https://github.com/ScalierBullet63/ruststeg/compare/v0.1.3...v0.1.4) - 2026-09-18
 
 ### Other
 
-- add GitHub App token creation to release workflow ([#28](https://github.com/ScalierBullet63/RustSteg/pull/28))
+- add Windows ARM64 compiling ([#33](https://github.com/ScalierBullet63/ruststeg/pull/33))
+- *(deps)* bump bitflags from 2.13.1 to 2.13.2 ([#30](https://github.com/ScalierBullet63/ruststeg/pull/30))
 
-## [0.1.2](https://github.com/ScalierBullet63/RustSteg/compare/v0.1.1...v0.1.2) - 2026-09-16
-
-### Other
-
-- change GITHUB_TOKEN to RELEASE_TOKEN in workflow ([#26](https://github.com/ScalierBullet63/RustSteg/pull/26))
-
-## [0.1.1](https://github.com/ScalierBullet63/RustSteg/compare/v0.1.0...v0.1.1) - 2026-09-16
+## [0.1.3](https://github.com/ScalierBullet63/ruststeg/compare/v0.1.2...v0.1.3) - 2026-09-16
 
 ### Other
 
-- setup cargo-dist workflows for cross-platform distribution ([#25](https://github.com/ScalierBullet63/RustSteg/pull/25))
-- update readme ([#24](https://github.com/ScalierBullet63/RustSteg/pull/24))
-- release v0.1.0 ([#21](https://github.com/ScalierBullet63/RustSteg/pull/21))
+- add GitHub App token creation to release workflow ([#28](https://github.com/ScalierBullet63/ruststeg/pull/28))
 
-## [0.1.0](https://github.com/ScalierBullet63/RustSteg/releases/tag/v0.1.0) - 2026-09-16
+## [0.1.2](https://github.com/ScalierBullet63/ruststeg/compare/v0.1.1...v0.1.2) - 2026-09-16
+
+### Other
+
+- change GITHUB_TOKEN to RELEASE_TOKEN in workflow ([#26](https://github.com/ScalierBullet63/ruststeg/pull/26))
+
+## [0.1.1](https://github.com/ScalierBullet63/ruststeg/compare/v0.1.0...v0.1.1) - 2026-09-16
+
+### Other
+
+- setup cargo-dist workflows for cross-platform distribution ([#25](https://github.com/ScalierBullet63/ruststeg/pull/25))
+- update readme ([#24](https://github.com/ScalierBullet63/ruststeg/pull/24))
+- release v0.1.0 ([#21](https://github.com/ScalierBullet63/ruststeg/pull/21))
+
+## [0.1.0](https://github.com/ScalierBullet63/ruststeg/releases/tag/v0.1.0) - 2026-09-16
 
 ### Added
 
-- add decryption ([#12](https://github.com/ScalierBullet63/RustSteg/pull/12))
-- add decode functionality ([#9](https://github.com/ScalierBullet63/RustSteg/pull/9))
+- add decryption ([#12](https://github.com/ScalierBullet63/ruststeg/pull/12))
+- add decode functionality ([#9](https://github.com/ScalierBullet63/ruststeg/pull/9))
 
 ### Other
 
-- update license and description in Cargo.toml ([#22](https://github.com/ScalierBullet63/RustSteg/pull/22))
-- create release-plz workflow for automated releases ([#20](https://github.com/ScalierBullet63/RustSteg/pull/20))
-- update GitHub Actions workflow with permissions ([#19](https://github.com/ScalierBullet63/RustSteg/pull/19))
-- add security policy ([#18](https://github.com/ScalierBullet63/RustSteg/pull/18))
-- add pull-request_template.md ([#17](https://github.com/ScalierBullet63/RustSteg/pull/17))
-- add CONTRIBUTING.md ([#16](https://github.com/ScalierBullet63/RustSteg/pull/16))
-- add feature request template ([#15](https://github.com/ScalierBullet63/RustSteg/pull/15))
-- add bug report template ([#14](https://github.com/ScalierBullet63/RustSteg/pull/14))
-- remove obsolete debug functions ([#13](https://github.com/ScalierBullet63/RustSteg/pull/13))
-- separate responsibilities ([#11](https://github.com/ScalierBullet63/RustSteg/pull/11))
+- update license and description in Cargo.toml ([#22](https://github.com/ScalierBullet63/ruststeg/pull/22))
+- create release-plz workflow for automated releases ([#20](https://github.com/ScalierBullet63/ruststeg/pull/20))
+- update GitHub Actions workflow with permissions ([#19](https://github.com/ScalierBullet63/ruststeg/pull/19))
+- add security policy ([#18](https://github.com/ScalierBullet63/ruststeg/pull/18))
+- add pull-request_template.md ([#17](https://github.com/ScalierBullet63/ruststeg/pull/17))
+- add CONTRIBUTING.md ([#16](https://github.com/ScalierBullet63/ruststeg/pull/16))
+- add feature request template ([#15](https://github.com/ScalierBullet63/ruststeg/pull/15))
+- add bug report template ([#14](https://github.com/ScalierBullet63/ruststeg/pull/14))
+- remove obsolete debug functions ([#13](https://github.com/ScalierBullet63/ruststeg/pull/13))
+- separate responsibilities ([#11](https://github.com/ScalierBullet63/ruststeg/pull/11))
 - improve GitHub Actions
 - remove unnecessary log
 - bump deps

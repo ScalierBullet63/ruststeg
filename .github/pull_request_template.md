@@ -14,8 +14,8 @@
 - [ ] Manual test performed (provide details below if applicable)
 
 ## Pre-Merge Checklist
-- [ ] Code formatted via `cargo fmt --check`
-- [ ] Zero linter warnings/errors via `cargo clippy -- -D warnings`
+- [ ] Code formatted via `cargo fmt --all -- --check`
+- [ ] Zero linter warnings/errors via `cargo clippy --all-targets -- -D warnings`
 - [ ] All test suites pass via `cargo test`
 - [ ] Documentation updated to reflect changes (if applicable)
 - [ ] Commits formatted according to [Conventional Commits](https://www.conventionalcommits.org/)

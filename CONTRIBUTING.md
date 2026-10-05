@@ -21,10 +21,10 @@ To maintain code quality, security, and project stability, we ask all contributo
 Your PR will only be merged once all Automated CI checks pass. Before submitting, verify the following locally:
 
 * **Formatting:** Format your code according to standard Rust style:
-  cargo fmt --check
+  cargo fmt --all -- --check
 
 * **Linting (Clippy):** Your code **must pass Clippy with zero warnings or errors**:
-  cargo clippy -- -D warnings
+  cargo clippy --all-targets -- -D warnings
 
 * **Tests:** All existing and new unit/integration tests must pass:
   cargo test

@@ -70,3 +70,14 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
           CARGO_REGISTRY_TOKEN: ${{ secrets.CARGO_REGISTRY_TOKEN }}
+      # release-plz has no native assignees option (open feature request #1319),
+      # so assign the maintainer to the release PR it just opened/updated.
+      - name: Assign release PR to maintainer
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+        run: |
+          pr="$(gh pr list --repo "$GITHUB_REPOSITORY" --state open --json number,headRefName \
+            --jq '[.[] | select(.headRefName | startswith("release-plz-"))][0].number // empty')"
+          if [ -n "$pr" ]; then
+            gh pr edit "$pr" --repo "$GITHUB_REPOSITORY" --add-assignee ScalierBullet63
+          fi

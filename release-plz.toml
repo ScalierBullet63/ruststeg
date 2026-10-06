@@ -1,3 +1,5 @@
 [workspace]
 git_tag_enable = true
 git_release_enable = false
+# Add the `release` label to the release PR opened by release-plz (ruststegbot).
+pr_labels = ["release"]

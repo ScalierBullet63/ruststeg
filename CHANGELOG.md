@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.6](https://github.com/ScalierBullet63/ruststeg/compare/v0.1.5...v0.1.6) - 2026-10-29
+
+### Other
+
+- *(deps)* bump Swatinem/rust-cache from 2.9.2 to 2.9.3 ([#48](https://github.com/ScalierBullet63/ruststeg/pull/48))
+- *(deps)* bump zeroize from 1.9.0 to 1.9.1 ([#47](https://github.com/ScalierBullet63/ruststeg/pull/47))
+- auto-label and assign release & dependency PRs ([#46](https://github.com/ScalierBullet63/ruststeg/pull/46))
+- *(fix)* fix dependabot issues ([#45](https://github.com/ScalierBullet63/ruststeg/pull/45))
+- add GitHub Actions update ([#42](https://github.com/ScalierBullet63/ruststeg/pull/42))
+- update README and improve documentation consistency ([#40](https://github.com/ScalierBullet63/ruststeg/pull/40))
+
 ## [0.1.5](https://github.com/ScalierBullet63/ruststeg/compare/v0.1.4...v0.1.5) - 2026-10-01
 
 ### Added
